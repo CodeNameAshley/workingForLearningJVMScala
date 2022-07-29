@@ -49,4 +49,23 @@ object Expressions extends App {
   }
   // Scope still applies here. firstVal is not available outside of the code block
 
+  // 1. difference between "hello world" vs println("hello world")
+  // "hello world" is a type string, println("hello world") is an expression returning a unit. A side effect
+
+  val someValue = {
+    2 < 3
+  }
+  // true
+
+  val someOtherValue = {
+    if (someValue) 239 else 986 // completely irrelevant
+    42
+  }
+  // 42 because someValue is a boolean and not int
+
+  println(someValue)
+  println(someOtherValue)
+
+
+
 }

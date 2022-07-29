@@ -65,7 +65,4 @@ object Expressions extends App {
 
   println(someValue)
   println(someOtherValue)
-
-
-
 }

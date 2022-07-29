@@ -30,5 +30,4 @@ object ValuesVariablesTypes extends App {
   // can be reassigned
   var variableOne: Int = 4
   variableOne = 5
-
 }
